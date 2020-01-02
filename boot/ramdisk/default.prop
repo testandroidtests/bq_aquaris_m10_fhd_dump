@@ -1,0 +1,26 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.mtk_key_manager_kb_path=1
+ro.adb.secure=1
+persist.service.acm.enable=0
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.zygote=zygote64_32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+persist.sys.usb.config=mtp
+ro.mount.fs=EXT4
+camera.disable_zsl_mode=1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Fri Jan 26 10:47:55 CET 2018
+ro.bootimage.build.date.utc=1516960075
+ro.bootimage.build.fingerprint=bq/Aquaris_M10_FHD/Aquaris_M10_FHD:6.0/MRA58K/1516959575:user/release-keys
